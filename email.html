@@ -103,17 +103,17 @@
       margin-right: 0;
     }
 
+    .header  {
+      background-color: #FFAF0A;
+      margin: 24px 0 24px 24px;
+    }
+
     .header-primary-fill {
       background-color: #FFAF0A;
     }
 
     .header-secondary-fill {
       background-color: #FFEFCE;
-    }
-
-    .header {
-      background-color: #FFAF0A;
-      padding: 24px;
     }
 
     .header a.est-logo-link,
@@ -125,23 +125,22 @@
       display: block;
     }
 
-    .header a.est-logo-link,
-    .header a.partner-logo-link {
-      padding-right: 20px;
+    .header .programme-logo-link {
+      padding-top: 10px;
     }
 
-    .header img.programme-logo {
+    .header .programme-logo {
       border: 0;
       outline: none;
       text-decoration: none;
       display: block;
-      margin-top: 8px;
     }
 
-    .header div.programme-tagline {
-      padding-top: 5px;
+    .header .programme-tagline {
       color: #000;
       font-size: 12px;
+      display: block;
+      padding-top: 3px;
     }
 
     /* -------------------------------------
@@ -375,7 +374,7 @@
 
     <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body">
 
-      <tr class="header-primary-fill">
+      <tr>
         <td class="header-primary-fill">&nbsp;</td>
         <td class="container header-primary-fill">
           <div class="content">
@@ -389,16 +388,19 @@
                       <img src="https://github.com/EST-Karol/responsive-html-email-template/blob/master/logo-est.png?raw=true" alt="Go Renewable" width="60" height="48" border="0">
                     </a>
                   </td>
+                  <td style="width: 20px;">&nbsp;</td>
 
                   <td style="width: 1%;">
                     <a href="https://www.gorenewable.org.uk" class="partner-logo-link">
                       <img src="https://github.com/EST-Karol/responsive-html-email-template/blob/master/logo-partner.png?raw=true" alt="Go Renewable" width="48" height="48" border="0">
                     </a>
                   </td>
+                  <td style="width: 20px;">&nbsp;</td>
 
-                  <td class="content-block">
+
+                  <td>
                     <a href="https://www.gorenewable.org.uk" class="programme-logo-link">
-                      <img src="https://github.com/EST-Karol/responsive-html-email-template/blob/master/logo-programme.png?raw=true" alt="Go Renewable" width="140"  border="0" class="programme-logo">
+                      <img src="https://github.com/EST-Karol/responsive-html-email-template/blob/master/logo-programme.png?raw=true" alt="Go Renewable" width="140" height="16"  border="0" class="programme-logo">
                     </a>
                     <div class="programme-tagline">Find trusted installers, compare quotes and upgrade your home</div>
                   </td>
@@ -409,15 +411,15 @@
 
           </div>
         </td>
-        <td class="header-primary-stripe">&nbsp;</td>
+        <td class="header-primary-fill">&nbsp;</td>
       </tr>
 
       <tr>
-        <td class="header-secondary-stripe">&nbsp;</td>
-        <td class="container header-secondary-stripe">
+        <td class="header-secondary-fill">&nbsp;</td>
+        <td class="container header-secondary-fill">
           &nbsp;
         </td>
-        <td class="header-secondary-stripe">&nbsp;</td>
+        <td class="header-secondary-fill">&nbsp;</td>
       </tr>
 
     </table>
